@@ -1,0 +1,7 @@
+
+w
+java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úşÿÿÿÿ8÷«¼ş—.
+J
+java:S1948"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8áìÆı—.
+L
+java:S1068"*Remove this unused "socket" private field.(Å’¬Úşÿÿÿÿ8áìÆı—.

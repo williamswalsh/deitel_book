@@ -1,0 +1,24 @@
+
+q
+java:S1192"[Define a constant instead of duplicating this literal "Not connected to database." 6 times.(Ë´…§
+>
+java:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148L"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148Y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148o"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+B
+java:S1948",Make "connection" transient or serializable.(ÿ›ÅÒ
+F
+java:S1948	"+Make "statement" transient or serializable.(„£„÷øÿÿÿÿ
+F
+java:S1948
+"+Make "resultSet" transient or serializable.(¿ˆ°úÿÿÿÿ
+E
+java:S1948"*Make "metaData" transient or serializable.(¶¹½˜úÿÿÿÿ
+U
+java:S11617":Add the "@Override" annotation above this method signature(˜ê€±ıÿÿÿÿ

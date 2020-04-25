@@ -1,0 +1,316 @@
+2020-03-07 21:03:38.179 [main] DEBUG files.FileDemo - We've just greeted the user!
+2020-03-07 21:03:38.181 [main] INFO  files.FileDemo - We've just greeted the user!
+2020-03-07 21:03:38.182 [main] WARN  files.FileDemo - We've just greeted the user!
+2020-03-07 21:03:38.182 [main] ERROR files.FileDemo - We've just greeted the user!
+2020-03-07 21:03:38.182 [main] FATAL files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.259 [main] TRACE files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.263 [main] DEBUG files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.263 [main] INFO  files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.263 [main] WARN  files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.263 [main] ERROR files.FileDemo - We've just greeted the user!
+2020-03-07 21:40:36.263 [main] FATAL files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.008 [main] TRACE files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.010 [main] DEBUG files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.011 [main] INFO  files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.011 [main] WARN  files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.011 [main] ERROR files.FileDemo - We've just greeted the user!
+2020-03-07 21:41:20.011 [main] FATAL files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:30.759 [main] DEBUG files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:30.768 [main] INFO  files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:30.768 [main] WARN  files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:30.768 [main] ERROR files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:30.769 [main] FATAL files.FileDemo - We've just greeted the user!
+2020-03-07 21:44:48.160 [main] INFO  files.FileDemo - %s exists
+%s
+%s
+%s
+Last Modified: %s
+File Size: %s
+Parent Dir: %s
+Path: %s
+Abs. Path: %s
+
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - reporting 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - .DS_Store 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - xml-reuploader 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - hibernateannotatedtutorial 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - email-templates 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - doc-upload-tester 
+2020-03-07 21:44:48.161 [main] INFO  files.FileDemo - bash-scripts 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - digitary-cloud 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - bash-functions 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - k8n-monitor 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - digitary-autotest 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - coop 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - support 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - digitary-classic 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - files 
+2020-03-07 21:44:48.162 [main] INFO  files.FileDemo - reporting_automated 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - learning_repo 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - lastpass-java 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - pdf-signature-verifier 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - pdf_utils 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - hsm-service 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - kubernetes 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - copy_sbt_eclipse.sh 
+2020-03-07 21:44:48.163 [main] INFO  files.FileDemo - i18n 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - core-configuration 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - tmp 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - copy_eclipse_sbt.sh 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - terraform-aws-developer-instance 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - document-templates 
+2020-03-07 21:44:48.164 [main] INFO  files.FileDemo - jmeter-repo 
+2020-03-07 21:45:39.728 [main] DEBUG files.FileDemo - We've just greeted the user!
+2020-03-07 21:45:39.730 [main] INFO  files.FileDemo - We've just greeted the user!
+2020-03-07 21:45:39.730 [main] WARN  files.FileDemo - We've just greeted the user!
+2020-03-07 21:45:39.730 [main] ERROR files.FileDemo - We've just greeted the user!
+2020-03-07 21:45:39.730 [main] FATAL files.FileDemo - We've just greeted the user!
+2020-03-07 21:45:58.032 [main] WARN  files.FileDemo - No file exists with this name.
+2020-03-07 21:46:17.848 [main] INFO  files.FileDemo - reporting 
+2020-03-07 21:46:17.851 [main] INFO  files.FileDemo - .DS_Store 
+2020-03-07 21:46:17.851 [main] INFO  files.FileDemo - xml-reuploader 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - hibernateannotatedtutorial 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - email-templates 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - doc-upload-tester 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - bash-scripts 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - digitary-cloud 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - bash-functions 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - k8n-monitor 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - digitary-autotest 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - coop 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - support 
+2020-03-07 21:46:17.852 [main] INFO  files.FileDemo - digitary-classic 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - files 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - reporting_automated 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - learning_repo 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - lastpass-java 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - pdf-signature-verifier 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - pdf_utils 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - hsm-service 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - kubernetes 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - copy_sbt_eclipse.sh 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - i18n 
+2020-03-07 21:46:17.853 [main] INFO  files.FileDemo - core-configuration 
+2020-03-07 21:46:17.854 [main] INFO  files.FileDemo - tmp 
+2020-03-07 21:46:17.854 [main] INFO  files.FileDemo - copy_eclipse_sbt.sh 
+2020-03-07 21:46:17.854 [main] INFO  files.FileDemo - terraform-aws-developer-instance 
+2020-03-07 21:46:17.854 [main] INFO  files.FileDemo - document-templates 
+2020-03-07 21:46:17.854 [main] INFO  files.FileDemo - jmeter-repo 
+2020-03-07 21:47:16.632 [main] WARN  files.FileDemo - No file exists with this name.
+2020-03-07 21:47:27.125 [main] INFO  files.FileDemo - Directory contains - file.txt
+2020-03-07 21:47:27.129 [main] INFO  files.FileDemo - Directory contains - FTL
+2020-03-07 21:47:27.129 [main] INFO  files.FileDemo - Directory contains - .eclipse
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - .config
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - Educational_Credential_Evaluators,_Inc._(ECE)
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - Music
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - dmu_missing_pdf_file
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - Dropbox (Digitary)
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - .fop
+2020-03-07 21:47:27.130 [main] INFO  files.FileDemo - Directory contains - .gitkraken
+2020-03-07 21:47:27.131 [main] INFO  files.FileDemo - Directory contains - bitbucket.txt
+2020-03-07 21:47:27.131 [main] INFO  files.FileDemo - Directory contains - .txt
+2020-03-07 21:47:27.131 [main] INFO  files.FileDemo - Directory contains - .condarc
+2020-03-07 21:47:27.131 [main] INFO  files.FileDemo - Directory contains - mic_uat_ingress
+2020-03-07 21:47:27.131 [main] INFO  files.FileDemo - Directory contains - .bash_profile.bak
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - .ivy2
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - shibd.log.2
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - mic_prod_ing
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - temp
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - .node-gyp
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - webproxy.its.manchester.ac.uk
+2020-03-07 21:47:27.132 [main] INFO  files.FileDemo - Directory contains - .anyconnect
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - export.txt
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - .vim
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - export.htm
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - Screenshots
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - .DS_Store
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - saml.html
+2020-03-07 21:47:27.133 [main] INFO  files.FileDemo - Directory contains - gmit_uat_ingress.yaml
+2020-03-07 21:47:27.134 [main] INFO  files.FileDemo - Directory contains - .nanorc
+2020-03-07 21:47:27.134 [main] INFO  files.FileDemo - Directory contains - myCert
+2020-03-07 21:47:27.134 [main] INFO  files.FileDemo - Directory contains - VirtualBox VMs
+2020-03-07 21:47:27.134 [main] INFO  files.FileDemo - Directory contains - core_openvpn_wwalsh.ovpn
+2020-03-07 21:47:27.134 [main] INFO  files.FileDemo - Directory contains - core-manchester-ingress.yaml
+2020-03-07 21:47:27.135 [main] INFO  files.FileDemo - Directory contains - .CFUserTextEncoding
+2020-03-07 21:47:27.135 [main] INFO  files.FileDemo - Directory contains - list.txt
+2020-03-07 21:47:27.135 [main] INFO  files.FileDemo - Directory contains - .stCommitMsg
+2020-03-07 21:47:27.135 [main] INFO  files.FileDemo - Directory contains - .hgignore_global
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - .wget-hsts
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - educampus.txt
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - .tooling
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - msg
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - Python
+2020-03-07 21:47:27.138 [main] INFO  files.FileDemo - Directory contains - .bash_profile.save
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - file_w_-n
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - ukfederation-metadata.xml
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - .scalaide
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - .bashrc
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - chesicc
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - tryME_cmc07.log
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - xmllint_test_area
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - in
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_25_09_IST_2.pdf
+2020-03-07 21:47:27.139 [main] INFO  files.FileDemo - Directory contains - activator-dist-1.3.12
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - .local
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - total.log
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - 1.patch
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - Pictures
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - typescript
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_25_09_IST_0.pdf
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - .atom
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - shibd.log.2_B
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_25_09_IST_1.pdf
+2020-03-07 21:47:27.140 [main] INFO  files.FileDemo - Directory contains - shibd_saml_response.log
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - .screenrc.bak
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - fileToSort
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - Important Documents
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - Postman
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - mail.txt
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - .jmc
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - code
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - Java
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - .p2
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - Desktop
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - QA
+2020-03-07 21:47:27.141 [main] INFO  files.FileDemo - Directory contains - Library
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - .activator
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - eclipse-workspace
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - 632d1f17-1057-4faf-8fc6-736891fe9359.jpeg
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - working
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - tc_ingress.yaml
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - President_Signature 2019_JPEG Version.JPG
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - .lesshst
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - dkit_data_spreadsheet.xlsx
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - mycertfile.pem
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - dsd_openvpn_wwalsh.ovpn
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - file_1
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - op_query.sql
+2020-03-07 21:47:27.142 [main] INFO  files.FileDemo - Directory contains - .oracle_jre_usage
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - Maven_2
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .git-completion.bash
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .bash_profile.pysave
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .minikube
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .emacs.d
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .node_repl_history
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .lpass
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .android
+2020-03-07 21:47:27.143 [main] INFO  files.FileDemo - Directory contains - .gitignore_global
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_06_27_IST.pdf
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .cups
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .bash_sessions
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .sqltools-setup
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .sbt
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - file_wo_-n
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - json
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - delete_contents_weekly
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - Public
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .dropbox
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - notes
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - .bash_profile-anaconda3.bak
+2020-03-07 21:47:27.144 [main] INFO  files.FileDemo - Directory contains - SoapUI-Tutorials
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - lp_query.sql
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .kube
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - http
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - mycert.pem
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .cisco
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .john
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .openvpn-connect.json
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .ike
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - scripts
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .anaconda
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_20_04_IST_1.pdf
+2020-03-07 21:47:27.145 [main] INFO  files.FileDemo - Directory contains - .dbeaver-drivers
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - .sonarlint
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - .ssh
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - Movies
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - Applications
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - .gradle
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - include_me
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - opt
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_17_16_IST_0.pdf
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - .Trash
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_20_04_IST_2.pdf
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - IdeaProjects
+2020-03-07 21:47:27.146 [main] INFO  files.FileDemo - Directory contains - .zoomus
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - .sqldeveloper
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - copy
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - .gitflow_export
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - down
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - .npm
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - .terraform.d
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - Documents
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - WIFI_HOLLYBANK.notes
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - wallet.war
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - meeting notes
+2020-03-07 21:47:27.147 [main] INFO  files.FileDemo - Directory contains - tryME.log
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - binaryFile
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - document_ids_list
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - BitBucket
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .mysql_history
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .vscode
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - IMG_4319.JPG
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .m2
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .bash_profile
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - backup
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .esets
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - kubectl
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - Downloads
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .cache
+2020-03-07 21:47:27.148 [main] INFO  files.FileDemo - Directory contains - .inputrc
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .aws
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .bash_profile.macports-saved_2019-04-30_at_16:05:33
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .gitconfig
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - c
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_17_17_IST_2.pdf
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - repo
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .soapuios
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - Spring Framework
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .bash_history
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - ittallaght_prod_president.jpeg
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .viminfo
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - file.ser
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - .gtk-bookmarks
+2020-03-07 21:47:27.149 [main] INFO  files.FileDemo - Directory contains - A.jar
+2020-03-07 21:47:27.150 [main] INFO  files.FileDemo - Directory contains - doc_Wed_15_May_2019_15_17_17_IST_1.pdf
+2020-03-07 21:47:27.150 [main] INFO  files.FileDemo - Directory contains - .conda
+2020-03-07 21:47:27.150 [main] INFO  files.FileDemo - Directory contains - sql
+2020-03-07 21:48:33.612 [main] INFO  files.FileDemo - Java_Deitel_Book exists
+Is not a file
+%s
+%s
+Last Modified: %s
+File Size: %s
+Parent Dir: %s
+Path: %s
+Abs. Path: %s
+
+2020-03-07 21:48:33.616 [main] INFO  files.FileDemo - Directory contains - bin
+2020-03-07 21:48:33.616 [main] INFO  files.FileDemo - Directory contains - Chpt_3
+2020-03-07 21:48:33.616 [main] INFO  files.FileDemo - Directory contains - .classpath
+2020-03-07 21:48:33.616 [main] INFO  files.FileDemo - Directory contains - 1.iml
+2020-03-07 21:48:33.616 [main] INFO  files.FileDemo - Directory contains - .gitignore
+2020-03-07 21:48:33.617 [main] INFO  files.FileDemo - Directory contains - .project
+2020-03-07 21:48:33.617 [main] INFO  files.FileDemo - Directory contains - .git
+2020-03-07 21:48:33.617 [main] INFO  files.FileDemo - Directory contains - .idea
+2020-03-07 21:48:33.617 [main] INFO  files.FileDemo - Directory contains - src
+2020-03-07 21:49:14.136 [main] WARN  files.FileDemo - No file exists with this name.
+2020-03-07 21:49:29.229 [main] INFO  files.FileDemo - Java_Deitel_Book exists
+Is not a file
+Is a dir
+Input Is absolute path
+Last Modified: 1583223718000
+File Size: 352
+Parent Dir: /Users/will/repo
+Path: /Users/will/repo/Java_Deitel_Book
+Abs. Path: /Users/will/repo/Java_Deitel_Book
+
+2020-03-07 21:49:29.236 [main] INFO  files.FileDemo - Directory contains - bin
+2020-03-07 21:49:29.236 [main] INFO  files.FileDemo - Directory contains - Chpt_3
+2020-03-07 21:49:29.236 [main] INFO  files.FileDemo - Directory contains - .classpath
+2020-03-07 21:49:29.236 [main] INFO  files.FileDemo - Directory contains - 1.iml
+2020-03-07 21:49:29.237 [main] INFO  files.FileDemo - Directory contains - .gitignore
+2020-03-07 21:49:29.237 [main] INFO  files.FileDemo - Directory contains - .project
+2020-03-07 21:49:29.237 [main] INFO  files.FileDemo - Directory contains - .git
+2020-03-07 21:49:29.237 [main] INFO  files.FileDemo - Directory contains - .idea
+2020-03-07 21:49:29.237 [main] INFO  files.FileDemo - Directory contains - src
+2020-03-07 21:50:20.817 [main] WARN  files.FileDemo - No file exists with this name.

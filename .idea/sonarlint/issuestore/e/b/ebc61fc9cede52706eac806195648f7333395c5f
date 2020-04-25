@@ -1,0 +1,7 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ˆ’ã‹’.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ Û8‰î‹’.
+{
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(õúÛ­ıÿÿÿÿ8ó™â‹’.

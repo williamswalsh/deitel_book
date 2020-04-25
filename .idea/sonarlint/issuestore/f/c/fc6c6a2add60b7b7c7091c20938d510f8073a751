@@ -1,0 +1,10 @@
+
+?
+java:S1481Ä"(Remove this unused "app" local variable.(Â€»á
+P	java:S110"<This class has 6 parents which is greater than 5 authorized.(ºåß4
+d
+java:S3252z"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(’˚ªˆ˛ˇˇˇˇ
+P
+java:S1128	".Remove this unused import 'java.util.HashMap'.(ôòîÄ˘ˇˇˇˇ8Å‚êŸñ.
+{
+java:S1130"eRemove the declaration of thrown exception 'java.awt.HeadlessException' which is a runtime exception.(Ù˚§ô

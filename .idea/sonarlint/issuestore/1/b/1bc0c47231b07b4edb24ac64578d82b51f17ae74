@@ -1,0 +1,70 @@
+
+E
+java:S1948"(Make "server" transient or serializable.(ï¼İü8î½Šˆ—.
+i
+java:S2142ö"FEither re-interrupt this method or rethrow the "InterruptedException".(×Ù÷ÿÿÿÿÿ8î½Šˆ—.
+J
+java:S1604m"(Make this anonymous inner class a lambda(Ò‰„Èúÿÿÿÿ8î½Šˆ—.
+@
+java:S1148="#Use a logger to log this exception.(äµ£¬8î½Šˆ—.
+C
+java:S3457•"%String contains no format specifiers.(…Ü¿8î½Šˆ—.
+_
+java:S1126ª"AReplace this if-then-else statement by a single return statement.(ŸÎ«ã8î½Šˆ—.
+S
+java:S1948!"1Make "otherPlayerTurn" transient or serializable.(î«…ıùÿÿÿÿ8î½Šˆ—.
+D
+java:S1948")Make "players" transient or serializable.(Ã¾±‚ûÿÿÿÿ
+L
+java:S1948 "6Make "otherPlayerConnected" transient or serializable.(¾ò®
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(áşìÎşÿÿÿÿ8î½Šˆ—.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(•Âµ8î½Šˆ—.
+o
+java:S3457•"Q%n should be used in place of \n to produce the platform-specific line separator.(…Ü¿8î½Šˆ—.
+@
+java:S1148V"#Use a logger to log this exception.(äµ£¬8î½Šˆ—.
+H
+java:S3457š"%String contains no format specifiers.(÷ò¸ìùÿÿÿÿ8î½Šˆ—.
+t
+java:S3457€"Q%n should be used in place of \n to produce the platform-specific line separator.(ãš²óıÿÿÿÿ8î½Šˆ—.
+A
+java:S1148…"#Use a logger to log this exception.(òçøì8î½Šˆ—.
+<
+java:S21293" Remove this "String" constructor(¥ğÆ8î½Šˆ—.
+i
+java:S2142ƒ"FEither re-interrupt this method or rethrow the "InterruptedException".(×Ù÷ÿÿÿÿÿ8î½Šˆ—.
+n
+java:S3457×"Q%n should be used in place of \n to produce the platform-specific line separator.(™…8î½Šˆ—.
+H
+java:S3457…"%String contains no format specifiers.(ŞÈÓûÿÿÿÿ8î½Šˆ—.
+t
+java:S3457š"Q%n should be used in place of \n to produce the platform-specific line separator.(÷ò¸ìùÿÿÿÿ8î½Šˆ—.
+;
+java:S3457×"%String contains no format specifiers.(™…
+A
+java:S1148ø"#Use a logger to log this exception.(òçøì8î½Šˆ—.
+m
+java:S3457é"Q%n should be used in place of \n to produce the platform-specific line separator.(Ş¤¶ùÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(äêçó
+t
+java:S3457…"Q%n should be used in place of \n to produce the platform-specific line separator.(ŞÈÓûÿÿÿÿ8î½Šˆ—.
+A
+java:S3398i"Move this method into "Player".(©¹Æèÿÿÿÿÿ8î½Šˆ—.
+D
+java:S1948")Make "runGame" transient or serializable.(Ã¼¼¼ùÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ë‚ê×üÿÿÿÿ
+o
+java:S3457ã"Q%n should be used in place of \n to produce the platform-specific line separator.(¯ü½ˆ8î½Šˆ—.
+A
+java:S1148§"#Use a logger to log this exception.(äµ£¬8î½Šˆ—.
+@
+java:S1948"*Make "gameLock" transient or serializable.(„¬®¤
+A
+java:S1148Ï"#Use a logger to log this exception.(äµ£¬8î½Šˆ—.
+t
+java:S3457Ø"Q%n should be used in place of \n to produce the platform-specific line separator.(«¿›Ùúÿÿÿÿ8î½Šˆ—.
+H
+java:S3457€"%String contains no format specifiers.(ãš²óıÿÿÿÿ8î½Šˆ—.

@@ -1,0 +1,13 @@
+Swing apps have a single thread
+-> Event Dispatcher Thread
+-> Updates GUI & processes user input
+-> UI interaction events are added to an eventQ -> executed sequentially
+-> Swing components are not thread safe
+
+Thread Confinement
+-> Removing multi-threading
+-> Used with non-thread safe objects
+-> Limit the number of threads to 1
+
+SwingWorker implements runnable
+

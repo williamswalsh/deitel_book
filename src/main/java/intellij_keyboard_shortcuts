@@ -1,0 +1,8 @@
+// ^ + shift + r    while highlighting class containing main will run the class
+// ^ + r            will run the last main class that was run
+// cmd + alt + l    autoformat code
+// alt + return     brings up prompt ***
+// cmd + d          end of input (while (scanner.hasNext()) exits)
+// cmd + f12        View methods in class
+// shift + F6       Rename a code element
+// shift + shift    search

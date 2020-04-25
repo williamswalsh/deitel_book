@@ -1,0 +1,20 @@
+
+E
+java:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¨öø–.
+J
+java:S1604$"(Make this anonymous inner class a lambda(Øí‘Ãúÿÿÿÿ8Ú’¥ö–.
+X	java:S110"<This class has 6 parents which is greater than 5 authorized.(ĞŒˆğ8…½•ö–.
+J
+java:S1948"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8ˆ©ö–.
+E
+java:S1148o"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹’ù–.
+W
+java:S1141:"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8±•Ä÷–.
+K
+java:S1948".Make "outputStream" transient or serializable.(ò¡ˆ8»«®ö–.
+P
+java:S1948".Make "serverSocket" transient or serializable.(“—Ó¿ıÿÿÿÿ8ºê¦ö–.
+E
+java:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹’ù–.
+I
+java:S1948"-Make "inputStream" transient or serializable.(©Îƒm8ó†®ö–.

@@ -1,0 +1,14 @@
+
+P
+java:S1948
+".Make "serverSocket" transient or serializable.(“—Ó¿ýÿÿÿÿ8„ÌÉý—.
+>
+java:S1170"!Make this final field static too.(¨Èëº8·´Øý—.
+J
+java:S1948"(Make "socket" transient or serializable.(Å’¬Úþÿÿÿÿ8›×àý—.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶àÚÊùÿÿÿÿ8’Âàþ—.
+L
+java:S1068"*Remove this unused "socket" private field.(Å’¬Úþÿÿÿÿ8›×àý—.
+w
+java:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úþÿÿÿÿ8¿Ìèý—.

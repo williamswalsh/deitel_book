@@ -1,0 +1,19 @@
+
+E
+java:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍÍÔš›.
+H
+java:S1168C"+Return an empty collection instead of null.(¥¹ï8åƒËš›.
+K
+java:S2115")Add password protection to this database.(×®˜úÿÿÿÿ8¡ˆŠš›.
+E
+java:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷»€››.
+]
+java:S2259:"@A "NullPointerException" could be thrown; "rs" is nullable here.(ÅÌ”Ù8÷»€››.
+E
+java:S1148J"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8î ‚››.
+{
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ëçôÿÿÿÿÿ8åƒËš›.
+d
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ùæ¹­8øúÀš›.
+E
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ñÛ‰š›.

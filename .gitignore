@@ -1,0 +1,4 @@
+*.class
+.DS_store
+examples/
+Chpt_3/.idea/sonarlint/

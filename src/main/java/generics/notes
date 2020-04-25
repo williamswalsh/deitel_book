@@ -1,0 +1,339 @@
+
+Generic Collections
+
+compile-time safe if their type is defined during declaration
+List<Integer> ints = new Vector<Integer>();
+
+Once you retrieve a ref from the collection they will have this pre-defined type
+Fewer ClassCastExceptions
+
+Collections work with Objects not primitives
+
+boxing          Primitive -> Object
+un-boxing       Object    -> Primitive
+
+Auto-boxing/Auto-unboxing
+
+Wrapper classes contain methods for processing primitives -> E.G. Integer.parseInt(new String("2009"));
+
+
+Collection -> Interface
+     ^
+     |
+ Set, Queue, List (Sub-Intefaces)
+
+ Collections have operations to process all elements -> Bulk operations
+ - Adding
+ - Comparing
+ - Clearing
+ - Sorting
+
+ Collection methods can return Iterator
+ - can iterate a Collection
+ - can remove element from the Collections
+ - .isEmpty()  .size()
+
+Collection -> used as a parameter to allow for Polymorphic processing
+Vector -> Syncronized
+Final Collections -> Unmodifiable
+
+
+List
+- Ordered Collection
+- can contain duplicates
+- ArrayList, LinkedList & Vector
+- LinkedList -> efficient for insertion & removal of elements
+- ArrayList & Vector -> Not good for insertion & removal
+
+Iterator
+Iterator i = <Collection>.iterator()
+i.set(<Element>)
+i.remove(<Element>)
+i.hasNext()
+
+
+
+ListIterator i = <List>.listIterator()
+
+Iterator can only go forwards
+ListIterator can go forwards and backwards -> Bitches!
+
+
+Same functionality:
+-------------------
+LinkedList.add()
+LinkedList.addLast()
+LinkedList implements Queue(add()->Adds to end by default) & Deque(addLast() -> Also adds to end by default)
+
+List -> Array:
+--------------
+String[] strs = list.toArray(new String[list.size()]);
+This creates a copy of the List
+2 References : 2 Data Structures
+
+Array -> List:
+--------------
+List<String> arrAsList = Arrays.asList(strs);
+2 References : 1 Data Structure
+
+Lists:
+.sort()
+.binarySearch()
+.reverse()
+.shuffle()
+.fill()
+.copy()
+
+Comparator -> interface
+Object1.compareTo(Object1)
+Obj1 == Obj2 -> 0
+Obj1 >  Obj2 -> +
+Obj1 <  Obj2 -> -
+
+Enum
+
+private static enum Suit{ diamonds, spades, clubs, hearts };
+private Suit suit;
+
+// Card -> containing class
+for (Card.Suit s : Card.Suit.Values){
+
+}
+
+
+Collections:
+.min()
+.max()
+addAll(<Collection>, array) -> Appends to collection passed array
+addAll(<Collection>, element) -> Appends to collection passed element
+
+.frequency() -> Returns number of instances of key in list 0,1,2,3,etc.
+.disjoint() -> Mutually exclusive -> Boolean return
+.copy(<CollectionA>, <CollectionB>) -> copy All from CollB into CollA
+            ^--------------|                            |-----------^
+
+.fill(<Collection>, <filler>)
+.reverse(<Collection>)
+.shuffle()
+.binarySearch( collection, searchKey ); returns int (-1 if not found)
+
+Stack -> extends Vector
+.push()             Adds to top of stack
+.pop()              Gets ref to element at top of stack and removes it
+.peek()             Gets ref to element at top of stack wo removing it
+.isEmpty()          Checks if stack is empty
+
+Queue
+Insertions made at the back of the Q
+Deletions made at the front of the Q
+
+Queue -> Interface
+PriorityQueue -> Implements Q
+Orders elements by their "natural ordering"
+PriorityQueue accepts a Comparator to perform the comparison/sorting
+Insertions are in sorted order -> Skipping position can occur if you have a more favorable comparison metric
+
+.offer(12)          Adds item to position with prioritized(sorted) queue
+.offer(null)        Throws NPE
+.peek()             Gets a ref to the highest priority element (top of the Q)
+.poll()             Gets a ref to the highest priority element (top of the Q) & removes the element from the Q -> Returns null if Q is empty
+.size()
+.clear()
+PriorityQueue(int, comparator)      the int is the initial capacity of the Q
+
+Set -> Interface
+No duplicates, unsorted
+HashSet -> HashMap -> No sorting/order
+
+SortedSet -> Interface
+TreeSet -> Implements SortedSet
+Sorts by natural ordering or by using a comparator(if passed in constructor)
+.headSet("orange")          Gets a view of a partial set where every element is <  "orange"
+.tailSet("orange")          Gets a view of a partial set where every element is >= "orange"
+.first()                    Gets First Element => which is the smallest order of elements
+.last()                     Gets Last Element  => which is the largest order of elements
+
+head/tail sets are the views of a set
+If there are any changes made to the head/tail set the underlying TreeSet will be affected and vice versa
+
+
+
+
+Maps
+Maps associate keys to values
+Keys must be unique
+Values don't have to be unique
+
+One-to-one mapping  -> If all the values are unique
+Many-to-one mapping -> If at least one value is not unique
+
+Map implementations
+Hashtable           -> Hash Table
+                    -> Load Factor -> ratio of (occupied cells/total available cells)
+                    -> If this is close to 1 -> higher possibility of hash collision
+
+HashMap             -> Hash Table
+                    -> Un-synchronized
+                    -> Allow null keys & null values
+
+TreeMap             -> Tree
+
+SortedMap           -> Interface -> Keeps keys in natural order
+
+
+If you want to store 100 employees data
+And use their social security number as the key
+If you use an Array it would require an array of millions of elements
+as social security numbers start very large 80087654 -> Elements minimum
+Better to use a key-value pair solution
+Which only requires 100 kv pairs
+
+shouldn't use arrays if:
+1) The keys are of the wrong type -> non positive integers
+2) The keys are sparsely populates eg: 1, 345654, 23424543453, 1000000000000
+
+HashMap
+default initial capacity            16 Elements
+default load factor                 0.75
+
+When #elems > Total#elems * loadFactor
+capacity doubles
+
+.containsKey(<key>): Boolean
+.get(<key>): <Value>                Get val from key
+.put(<key>, <value>)                Put val at key
+.keySet()                           Gets all keys
+
+Properties
+.setProperties(<key>,<value>);
+.getProperties(<key>): <value>
+.clear()
+
+
+Synchronised Collection Wrappers
+These methods take a generic type and return a synchronised view of the generic type
+List<String> list2 = Collections.syncrhonizedList(list)
+.syncrhonizedCollection()
+             Set()
+             SortedSet()
+             Map()
+             SortedMap()
+
+Unmodifiable Collection Wrappers
+These methods take a generic type and return an unmodifiable view of the generic type
+Exception thrown -> UnsupportedOperation
+.unmodfiableCollection()
+            List()
+
+Can offer an unmodifiable list wrapper ref to a client while you have access to the modifiable list
+
+
+Can create custom Collection by extending the AbstractCollection Class
+AbstractCollection()
+AbstractMap()
+AbstractSet()
+
+Can implement the abstract methods
+And override the previously implemented methods
+
+
+
+Generic Methods
+<T>         T is a "type variable"
+            Type parameter section of method signature
+            The methodCall() contains the actual type parameter
+            Precedes the method return type
+            can represent only Reference types
+
+
+private static <T> void printArray(T[] array){
+    for( T element: array){
+        sout(element);
+    }
+    sout();
+}
+
+In general, 'T' is used to represent an arrays Element type
+
+Compiler looks for non-generic method which matches the method call
+if not found
+Compiler looks for generic method which matches the method call
+A compilation error occurs when 2 methods can (generally) satisfy the method call
+
+
+Generics -> Erasure
+When you create a generic method and this method is called with several explicit types Integer,Double, Boolean
+the general method is valurised by adding the "Object" Class for T
+This then handles all subtypes
+
+
+C++ Templates == Java Generics
+C++ each method with different argument types are compiled
+
+C++  = Separate copy of the source code is generated & compiled (for every passed type)
+Java = Single copy of the source code is generated & compiled
+
+Comparison
+All primitive wrapper Classes implement the Comparable interface A.compareTo(B)
+
+Generic Interface -> Comparable<T>
+
+Upper bound -> this is the root class which the generic object can be
+by default it is Object
+
+private <T extends Comparable<T>> T max(T a, T b, T c);
+                    ^-- Upper Bound class A class that implements Comparable interface
+
+Always uses extends for Type parameter declarations
+regardless of whether it is a class/interface
+
+Can have zero or 1 class
+and
+Can have zero or many interfaces
+
+
+
+B4 Erasure:
+private <T extends Comparable<T>> T max(T a, T b, T c){
+After:
+private Comparable max(Comparable a, Comparable b, Comparable c){
+
+Erasure also adds casts to the method calls return value
+(Integer)max(3,4,5)
+(Double)max(3.4,43.2,52.3)
+(String)max("a", "A", "B");
+
+Parameterised Types - Stack:
+Stack of Integer
+         Doubles
+         Employees
+
+Stack stack = new Stack();
+-> creates stack of Objects
+-> Called a "Raw Type"
+-> compiler implicitly uses Object
+
+Custom Generics - Chpt 22
+-------------------------------------------------------
+Self-referential class  ->  Class which has a reference to another object of itself
+LinkedList Node
+
+Stack & Queue  -> Linear Data Structure
+BinaryTree     -> Non-linear
+
+LinkedList
+-> Can change capacity at runtime easily
+-> Insertion is fast -> only have to change 2 references
+                     -> Existing elements don't have to be removed
+
+-> LinkedLists can be maintained in sorted order
+-> LL elements are Non-contiguous in memory -> The elements don't border each other(non-neighbours)
+-> LL don't have immediate access
+-> LL have to be traversed to get elements
+
+-> Array Elements are contiguous
+-> Array elem Insertion/removal is time consuming as all elements have to be shifted by one
+
+
+
+-------------------------------------------------------

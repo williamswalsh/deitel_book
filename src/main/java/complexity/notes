@@ -1,0 +1,25 @@
+
+Big O is only concerned with how the algo's time grows with the number of items processed
+n elements processed in "O(n)" time
+
+O(1)
+-> Constant run time
+-> regardless of array size
+-> doesn't scale with size
+-> method which compares 1st and 2nd number in array
+-> size of array doesn't matter
+
+O(n)
+-> Linear run time
+-> Scales with # elements
+-> n-1 comparisons ~ n
+-> constant factors omitted in "Big O" notation
+-> order n
+
+O(n^2)
+-> Quadratic run time
+-> Doubling the # of items quadruples the # of comparisons
+-> n^2  (n^2)/2
+-> n=4 out=16
+-> n=8 out=64
+

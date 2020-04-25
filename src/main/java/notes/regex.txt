@@ -1,0 +1,36 @@
+
+Character Class
+\d -> Any Digit
+\D -> Any nonDigit
+
+\w -> Any word character
+\W -> Any non word character
+
+\s -> Any space character
+\S -> Any non space character
+
+[a-z]
+[A-Z]
+[A-z] -> [a-zA-Z]
+[A-Z]{3, 7} -> Any CAP letter between 3 and 7 times
+\d{5} -> 5 digits
+
+Quantifier:
+-----------
+? -> 0 or 1
+* -> 0 or many -> will match an empty string
++ -> 1 or many
+{n} -> n times
+{n,} ->  at least n times
+{n, m} -> n to m times
+
+Quantifiers are "greedy" by design
+-> They will match as many characters as possible
+-> If you use ? -> they are "reluctant"
+
+
+String.matches()
+-> doesn't match sub-strings
+-> must match complete strings
+
+

@@ -1,0 +1,42 @@
+
+PrintStreams
+------------
+System.in + System.out + System.err
+
+Character Based IO
+------------------
+Scanner + Formatter
+
+Sequential access text files
+----------------------------
+-> must be opened multiple times to edit multiple times
+-> Must rewrite whole file not just single line
+
+Object Serialization
+--------------------
+ObjectOutputStream
+ObjectInputStream -> After the Object is read its is down casted to specific type if( obj instanceOf Car) { Vehicle output = (Car)obj; }
+Object must implement class Serializable
+
+Pipes
+-----
+-> Sync'd communication channels between threads
+
+
+
+DataInput Interface -> Reading Primitive types
+-------------------
+DataInputStream
+RandomAccessFile
+
+BufferedInputStream
+ByteArrayInputStream -> byte arrays
+SequenceInputStream -> Joining input streams 1st then 2nd
+
+Reader -> Abstract -> Unicode chars
+------
+BufferedReader
+CharArrayReader
+LineNumberReader -> # \n
+FileReader  -> Chars
+PipedReader -> inter-thread comms

@@ -1,0 +1,53 @@
+Networking:
+-----------
+Internet -> Inter-network -> Network of Networks
+Web      -> Content which is accessed via internet
+
+Java offers:
+
+Stream-based Communication
+-> Connection Oriented protocol
+-> TCP
+-> Stream-Sockets
+-> Better reliability, less performant
+
+Packet-based Communication
+-> Connectionless protocol
+-> UDP
+-> Transmitting Individual packets
+-> Datagram-Sockets
+-> Packets can be lost and/or duplicated
+-> Packets don't arrive in any particular order
+-> Better performance, worse reliability
+
+Socket:
+-> Software construct
+-> Allows apps to view networking as if it was file I/O
+-> read() write()
+
+Multi-casting:
+Clients can subscribe to Server cast
+Server can publish info -> All subscribers receive it
+
+
+URI -> Uniform Resource Identifier
+URL -> Uniform Resource Locator
+URL is a URI which refers to the locations of a web page.
+
+
+Swing UI Lib:
+event.getActionCommand() -> Returns a components associated string(this data is recorded in the event)
+JEditorPane.setPage(String url) -> handles the connection to the server
+-> Useful for displaying text within a JFrame(Window)
+-> Generates a HyperlinkEvent when a hyperlink is moused-on, moused-off and clicked
+-> HyperlinkListener to perform an action when this occurs(browse to new page)
+-> EventType .ENTERED
+-> EventType .EXITED
+-> EventType .ACTIVATED
+
+
+ServerSocket server = new ServerSocket( port, maxClientQueueLength);
+-> Registers available TPC port
+-> Specifies the max number of clients ?
+
+

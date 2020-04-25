@@ -1,0 +1,22 @@
+
+E
+java:S1148""#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”œ’.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ºÆåøÿÿÿÿ8¸°µ’.
+g
+java:S1192"JDefine a constant instead of duplicating this literal "smtp_user" 4 times.(Î¢¡»8¸°µ’.
+E
+java:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8®ï­’.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ºÆåøÿÿÿÿ8­Ò—’.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ºÆåøÿÿÿÿ8´ê¶’.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(îòËíüÿÿÿÿ8¿¥’.
+n
+java:S1192"LDefine a constant instead of duplicating this literal "Smtp User: " 3 times.(ºÆåøÿÿÿÿ8´ê¶’.
+E
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8°¶ ’.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(ÁŠ8±¯¸’.
+a
+java:S2147."DCombine this catch with the one at line 44, which has the same body.(ï­£Ä8®ï­’.
+a
+java:S2147#"DCombine this catch with the one at line 33, which has the same body.(ï­£Ä8°¶ ’.
+E
+java:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8®ï­’.

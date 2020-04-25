@@ -1,0 +1,23 @@
+
+[
+java:S1854">Remove this useless assignment to local variable "xmlDecoder".(õÉ»ì8ôÌñ­‹.
+
+java:S1130"nRemove the declaration of thrown exception 'java.io.IOException' which is a subclass of 'java.lang.Exception'.(Šæ®çıÿÿÿÿ8ºöó­‹.
+d
+java:S2095"HUse try-with-resources or close this "XMLDecoder" in a "finally" clause.(•îËs8íÇô­‹.
+e
+java:S2095"HUse try-with-resources or close this "XMLDecoder" in a "finally" clause.(õÉ»ì8¯ªò­‹.
+]
+java:S1854";Remove this useless assignment to local variable "byteArr".(ÿ£­Ïùÿÿÿÿ8Õ­ï­‹.
+š
+java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(Šæ®çıÿÿÿÿ8ãáó­‹.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šæ®çıÿÿÿÿ8Õ­ï­‹.
+N
+java:S1481",Remove this unused "byteArr" local variable.(ÿ£­Ïùÿÿÿÿ8Õ­ï­‹.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Šæ®çıÿÿÿÿ8Õ­ï­‹.
+L
+java:S1481"/Remove this unused "xmlDecoder" local variable.(õÉ»ì8ôÌñ­‹.
+L
+java:S20931"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¯ªò­‹.
+T
+java:S1135!"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Õ­ï­‹.

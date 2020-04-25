@@ -1,0 +1,58 @@
+Java views files as sequential stream of bytes
+
+Byte Streams
+---------------------------------
+5 -> 101
+FileInputStream
+FileOutputStream
+
+Can be used with:
+ObjectInputStream
+ObjectOutputStream
+
+
+
+Character Streams(Unicode)
+---------------------------------
+5 -> 00000000 00110101
+FileReader
+FileWriter
+PrintWriter .format()
+            .printf()
+
+System.setIn() .setOut() .setErr()
+Can redirect stdIn stdOut stdErr
+
+
+Formatter
+---------
+ -> Can output to various locations -> stdin/stderr/files
+
+Formatter f = new Formatter("FileName.txt");
+f.format("%s %s\n", "Hello", "World");
+
+if( f != null)
+    f.close(); -> Avoiding NPE
+
+Scanner
+-------
+Scanner s = new Scanner(new File("TopSecret.txt"));
+.hasNext() .nextInt()
+
+
+OS Specific
+-----------
+Newlines -> UNIX -> \n
+Newlines -> Windows -> \r\n
+
+EOF -> MacOS -> <ctrl> d
+EOF -> windows -> <ctrl> z
+
+
+Exceptions:
+-----------
+SecurityException -> No permission to write/read file
+FileNotFoundException -> Doesn't exist AND cannot be created
+FormatterClosedException
+NoSuchElementException -> If the data is in the wrong format ( .nextInt() .nextDouble() etc.)
+IllegalStateException -> Thrown if Scanner was closed before data was input

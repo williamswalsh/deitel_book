@@ -1,0 +1,98 @@
+Threads
+
+Syncronised                 Actions are co-ordinated
+E.g. (Video Streaming -> Downloading video & playing downloaded video -> Buffering)
+
+Concurrent
+
+Should use existing classes as concurrent apps are error prone
+-> ArrayBlockingQueue
+
+
+Only experienced multi-threading programmers should use Lock & Condition interfaces
+
+Life Cycle of a thread:
+
+
+No CPU: waiting, timed waiting & blocked states
+
+State Entry:
+new             upon thread creation statement execution (new Thread())
+runnable        .run()
+waiting         Thread initiates its own transition to waiting state
+timed waiting   Told to wait(Sleep interval) -> WordDocument.backUpDoc() happens every 30 seconds(30 sec sleep interval)
+blocked         When thread executes a IO request(DB query  - it takes time), OS blocks thread until resource valorized
+
+JVM             Runnable
+OS              Ready & Running
+
+Ready           No CPU available -> thread priority q
+Running         OS dispatches thread to CPU
+
+Thread Priority:
+Every thread has a thread priority
+Each new thread inherits the thread priority of the thread that created it
+NB:
+Thread priority cannot guarantee the order in which threads execute.
+
+Don't create threads -> use Executor class
+
+
+
+Some thread schedulers which encounter higher priority tasks may indefinitely postpone lower priority threads
+This is called Starvation
+
+To avoid this OSes implement "aging" causing older threads to increase their priority.
+When a thread is in ready state -> the thread "ages" -> priority score increases
+
+
+Executor Interface:
+Single method:   .execute(Runnable runnable);
+Executors manage a thread pool
+Executor assigns each Runnable to a thread
+Reuses existing threads -> Eliminates overhead of creating/destroying threads
+Optimizes # of threads -> Enough threads to keep CPU busy & not too much to cause resources limit issues
+
+I ExecutorService extends Executor{}
+
+Executors -> Class scope methods
+
+
+synchronized Block
+This is a code block which can only be executed by the thread which possesses the object's monitor lock
+The object is passed into the block as an argument
+synchronized (object){
+}
+
+
+
+synchronized Method
+This is when you add a synchronized keyword to a method signature
+The method code can only be executed by the thread which possesses the calling object's monitor lock
+
+synchronized private int getInt(){
+    return integerValue;
+}
+
+phone.getInt()          ->          Phones monitor lock has to be acquired to execute this method
+Can have static synchronized methods             ->      Class  monitor lock
+Can have nonstatic synchronized methods          ->      Object monitor lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

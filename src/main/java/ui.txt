@@ -1,0 +1,35 @@
+Event handling
+--------------
+1) Create an event handler class
+private class TextFieldHandler implements ActionListener {
+
+2) Create an object of the class
+TextFieldHandler handler = new TextFieldHandler();
+
+3) Register the event handler
+textField1.addActionListener(handler);
+
+Nested/Inner Classes
+--------------------
+Classes declared within another class
+Non-static nested classes -> Inner classes
+Have access to all(even private) vars & methods in containing class.
+
+Inside the inner Class
+ContainingClass.this -> ref to container
+
+Components
+----------
+new CheckBox("My String").isSelected();
+new Font("Serif", Font.PLAIN, 14);
+textField.setFont(font);
+
+JRadiobutton btn = new JRadioButton("My radio button", false);
+ButtonGroup btnGrp = new ButtonGroup();
+btnGrp.add(btn);
+btnGrp.add(btn2);
+btnGrp.add(btn3);
+
+JCheckBox -> ItemEvent occurs -> ItemListener.itemStateChanged();
+
+

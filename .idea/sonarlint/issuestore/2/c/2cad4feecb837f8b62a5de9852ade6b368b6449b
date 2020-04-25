@@ -1,0 +1,5 @@
+
+f
+java:S2095	"DUse try-with-resources or close this "Socket" in a "finally" clause.(¥ïğœÿÿÿÿÿ8¬½‰í–.
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ãÎ¾’ÿÿÿÿÿ8¯µí–.

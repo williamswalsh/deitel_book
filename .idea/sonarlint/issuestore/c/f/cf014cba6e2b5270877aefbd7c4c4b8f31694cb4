@@ -1,0 +1,34 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(á†ÈÄıÿÿÿÿ8¯ÊîÁ’.
+B
+java:S2129
+" Remove this "Double" constructor(£ÓÕÿÿÿÿÿ8ìÿğÁ’.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ°ƒùÿÿÿÿ8ë¤ïÁ’.
+C
+java:S2129	"!Remove this "Integer" constructor(¦¨Šûÿÿÿÿ8îØìÁ’.
+Q
+java:S1874"/Remove this use of "Integer"; it is deprecated.(á†ÈÄıÿÿÿÿ8ÖÂìÁ’.
+Q
+java:S1874	"/Remove this use of "Integer"; it is deprecated.(¦¨Šûÿÿÿÿ8îØìÁ’.
+Q
+java:S1874"/Remove this use of "Integer"; it is deprecated.(á†ÈÄıÿÿÿÿ8ÖÂìÁ’.
+C
+java:S2129"!Remove this "Integer" constructor(á†ÈÄıÿÿÿÿ8ÖÂìÁ’.
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(¦¨Šûÿÿÿÿ8™îÁ’.
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(£ÓÕÿÿÿÿÿ8ìÿğÁ’.
+B
+java:S2129
+" Remove this "Double" constructor(£ÓÕÿÿÿÿÿ8Ò—ñÁ’.
+P
+java:S1874
+".Remove this use of "Double"; it is deprecated.(£ÓÕÿÿÿÿÿ8Ò—ñÁ’.
+P
+java:S1874
+".Remove this use of "Double"; it is deprecated.(£ÓÕÿÿÿÿÿ8ìÿğÁ’.
+Q
+java:S1874	"/Remove this use of "Integer"; it is deprecated.(¦¨Šûÿÿÿÿ8îØìÁ’.
+C
+java:S2129"!Remove this "Integer" constructor(á†ÈÄıÿÿÿÿ8ÖÂìÁ’.
+C
+java:S2129	"!Remove this "Integer" constructor(¦¨Šûÿÿÿÿ8îØìÁ’.

@@ -1,0 +1,17 @@
+
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿõ•¬”.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿõ•¬”.
+f
+java:S2147"DCombine this catch with the one at line 25, which has the same body.(Ñ¾éÓüÿÿÿÿ8äó”¬”.
+O
+java:S1128"2Remove this unused import 'java.applet.AudioClip'.(ßœÙ8íÁ¬”.
+a
+java:S2147"DCombine this catch with the one at line 25, which has the same body.(ï­£Ä8äó”¬”.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ÿõ•¬”.
+e
+java:S3252
+"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(ºÀœx8äó”¬”.
+X	java:S110"<This class has 6 parents which is greater than 5 authorized.(Ö™áÚ8 õ˜¬”.

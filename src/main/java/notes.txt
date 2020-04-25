@@ -1,0 +1,369 @@
+
+
+%.2f -> Print floating point number to 2 decimal places
+Short-circuiting OR operator (||) can be used to avoid NPE's in if with multiple expressions if (a==null || a.isEmpty)
+
+private -> var/methods with this are only accessible to vars/methods inside the same class.
+
+local vars -> not initialised by default
+instance vars ->  initialised by default
+
+One class can be seen as a "client" of another if one is serving the other data/methods
+
+byte/char/short/int/long (instance vars) are initialised to 0.
+boolean (instance vars) are initialised to false.
+
+Keyword new requests memory from the JVM then calls the constructor.
+
+Default constructor provided if on constructors created.
+
+float  -> can represent up to 7  significant digits
+double -> can represent up to 15 significant digits
+
+All literal floating point values are treated as doubles (e.g. 4.56, 673.234, 56.90878564576)
+
+Static methods are called by refering to the class then to the static method ( e.g. CokeCan.print() )
+
+|------------------------------------------------------------|
+|                           Account                          |
+|------------------------------------------------------------|
+|- name: String                                              |
+|- balance: double                                           |
+|------------------------------------------------------------|
+|<<constructor>>Account( name: String )                      |
+|<<constructor>>Account( name: String, deposit: double )     |
+|+ setName(name: String)                                     |
+|+ getName() : String                                        |
+|+ deposit(amount: double)                                   |
+|+ withdraw(amount: double)                                  |
+|+ displayBalance()                                          |
+|------------------------------------------------------------|
+
+scanner.next()     -> reads all characters up until a whitespace character
+scanner.nextLine() -> reads all characters up until a newline character
+
+
+Mutators can enforce constraints on data mutation
+
+void interestingSetter(String a){
+    if( aIsValid ){
+        this.a=a;
+    }else{
+        throw new illegalArgumentException("A isn't valid for reason x.");
+    }
+}
+
+
+Super Subclass relationship
+------------------------------------------------------------------------------
+Common details of multiple Class should be shared in a super Class
+Only a superclass's public & protected members are accessible in a subclass.
+Protected members can be accessed from subclasses
+Protected members can also be accessed from Classes within same package
+Not good to have protected variables as mutation isn't constrained/controlled
+Use protected when you want to limit access to subclasses & package access
+
+Calling super methods from within overridden methods
+@Override
+void toString(){
+    String.format( "%s, %s", super.toString(),getVarA());
+}
+
+@Override
+------------------------------------------------------------------------------
+-> Prevents unintentional Overloading
+-> Tells compiler to compare method signature to superclasses method signatures
+
+Object Cloning
+------------------------------------------------------------------------------
+Shallow Copy only copies references to objects
+Deep Copy Creates new Duplicate objects for each object reference
+clone method not recommended -> Object serialisation is preferred over this
+
+equals()
+------------------------------------------------------------------------------
+Default equals
+- Compares variables value -> for primitives & reference variables
+- only compares references for equality
+
+finalize() -> Avoid
+
+hashCode()
+------------------------------------------------------------------------------
+-> returns int value representing object
+-> the default toSting calls hashCode() method
+
+<PACKAGE>.<CLASS>@<OBJECT_HASHCODE>
+Objects.A@5451c3a8
+5451c3a8 -> Hexadecimal representation
+
+Software Principles
+------------------------------------------------------------------------------
+1) Software is fragile/brittle if a small change in the superclass breaks subclass implentation
+2) Localize the effects of changes -> (Related to duplication)
+3) If you find that classes are related, you should factor out common instance varaibles & methods into a superclass
+4) Create fewer classes that provide more substantial functionality (to a point / this is a balance)
+5)
+
+
+is-a
+------------------------------------------------------------------------------
+
+is-a relationship -> Inheritance
+has-a relationship -> Composition
+
+A Ferrari is-a Car
+but
+a Car isn't always a Ferrari
+
+Every object of a SubClass is a Object of a SuperClass
+Not every object of a SuperClass is a Object of a SubClass
+
+Binding
+------------------------------------------------------------------------------
+Dynamic/late binding
+- JVM decides the method to call at execution time
+- Polymorphism
+
+Static Binding
+- static methods
+- final methods
+- Compiler decides the method to call at compilation time
+
+
+Superclass
+------------------------------------------------------------------------------
+A superclass reference can only refer to superclass methods
+
+***NB
+Cannot refer to a subclass only method from a superclass reference.
+superClassObject.subClassOnlyMethod() -> Compilation failure -> No method
+
+
+Superclass reference to subclass casting
+------------------------------------------------------------------------------
+Down casting -> (SubClass)(new SuperClass());
+ClassCastException() -> if SuperClass reference isnt-a SubClass
+"Incompatible Types" error
+Use instanceof to check if "superclass is a subclass"
+
+
+Subclass reference to superclass casting
+------------------------------------------------------------------------------
+(SuperClass)(new SubClass());
+
+
+SuperClass variable Subclass reference
+------------------------------------------------------------------------------
+SuperClass s = new SubClass();
+s.subClassOnlyMethod();
+ERROR: "Cannot find symbol"
+
+A variable can only be used to call members of its own type. If not in SuperClass type then error.
+
+SubClass only members can only be called if the reference is cast to the containing subclass.
+
+if (s instanceof SubClass){
+    ((subclass)s).subclassonlymethod(); -> Works
+}
+
+
+Final
+------------------------------------------------------------------------------
+Final methods cannot be overridden
+-> All subclasses must use superclasses implementation
+-> Cannot override method in subclass
+
+Methods declared private are implicitly final
+-> Cannot be overridden in subclass
+-> As they are not accessible in any subclass
+
+Methods declared static are implicitly final also.
+
+A final class cannot be extended/subclassed
+All methods in a final class are implicitly final
+String class is final.
+
+
+
+Abstract
+------------------------------------------------------------------------------
+Abstract Class variables can be used to refer to concrete subclass references.
+
+Abstract a = new ConcreteSubClass1();
+a = new ConcreteSubClass2();
+
+
+
+Reflection
+------------------------------------------------------------------------------
+Class classDetailsOfObject = object.getClass();
+String className = classDetailsOfObject.getName();
+
+
+Interfaces
+------------------------------------------------------------------------------
+1) is used to represent common behaviour between unrelated things
+2) standardises the way we interact with something
+3) define operations & constants
+4) All members must be public
+5) A class that doesn't implement all interface methods has to be abstract
+6) Tagging interface is used to add an is-a relationship to a class
+They have no methods/constants
+e.g. Serializeable All objects marked with this is-a Serializeable Class
+
+7) When naming interfaces choose a general name for the method as it will be executed by many unrelated classes.
+8) UML add guillmets to either side of the name <<Interface >>
+9) Classes realize/implement the methods in the interface.
+10) You can only inherit from 1 class but you can implement many interfaces
+11) When you implement an interface you have an is-a relationship with that interface
+12) If you have an abstract class that implements an interface you don't have to implement ANY of the methods in the interface.
+13) methodA(Interface interfaceA){}
+-> methodA(classXImplementsA);
+Processed polymorphically
+
+14) When a method parameter is declared with a interface type,
+the method processes the object received as an argument polymorphically.
+
+15) Superclass ref
+> invoke any method contained in the direct & indirect superclasses
+16) Interface ref
+> any direct & indirect interface & object methods
+
+Can contain:
+1) abstract methods
+2) constants
+
+
+
+UML
+------------------------------------------------------------------------------
+<<interface>>
+Payable
+    ^
+    |
+
+    |
+ Employee (Abstract >> Italic Characters)
+    ^
+    |
+    |
+SalariedEmployee
+
+
+Exceptions
+------------------------------------------------------------------------------
+1) An exception is an indication of a problem in a programs execution.
+2) e.printStackTrace() -> prints to std.err
+3) In a multithreaded app an exception will end a single thread -> other threads continue
+
+Checked Exceptions
+------------------------------------------------------------------------------
+Compiler enforces declare or throw requirement
+Extends Exception
+Does not extend RuntimeException
+
+
+Unchecked Exceptions
+------------------------------------------------------------------------------
+No declare or throws requirement enforced
+Extends both Exception & RuntimeException
+
+
+Exceptions Constructors
+------------------------------------------------------------------------------
+Exception();
+Exception(String);
+Exception(Throwable);
+Exception(String, Throwable);
+
+
+Chaining Exceptions
+------------------------------------------------------------------------------
+catch(Exception original){
+
+    // 2 Parameters - New exception string, Original Exception
+    throw new Exception("This is another exception chained", original);
+}
+
+Throwable
+------------------------------------------------------------------------------
+Class
+Exception & Error extend this Class
+
+
+Stack Unwinding
+------------------------------------------------------------------------------
+Occurs when an exception is thrown and not handled in the catch block.
+The method call stack is "unwound" to the next outer method call.
+In order to check for a containing try-catch statement
+
+
+Preconditions
+------------------------------------------------------------------------------
+Conditions that must be TRUE before method execution
+State the precondition in the method comment
+
+Postconditions
+------------------------------------------------------------------------------
+Conditions that ARE TRUE after method execution
+State the postcondition in the method comment
+
+Assertion
+------------------------------------------------------------------------------
+Type of condition
+Something "should be" TRUE
+precondition -> assertion when the method is called
+postcondition -> assertion when the method finishes
+
+assert Something
+-> if true  - nothing occurs
+-> if false - AssertationError - Error
+
+assert expression;
+assert expression1: expression2; exp2 -> error message
+
+
+Try catch finally
+------------------------------------------------------------------------------
+If a catch block throws an exception,
+the finally block will complete
+the exception will then be thrown to the next outer try-catch (method call stack unwinding)
+
+when an exception occurs in a try block,
+program execution goes to the first catch block with a parameter type which matches the exception type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

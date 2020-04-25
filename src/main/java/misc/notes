@@ -1,0 +1,14 @@
+Applets & JNLP are depreciated
+
+Timer Class
+
+JNLP:
+FileOpenService fos = (FOS) ServiceManager.lookup("javax.jnlp.FileOpenService");
+
+FileContents content = fos.openFileDialog(null, null);
+
+byte[] imageData = new byte[content.getLength()];
+
+// Tells read how many bytes to read from inputStream into imageData
+content.getInputStream().read(imageData);
+

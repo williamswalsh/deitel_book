@@ -1,0 +1,18 @@
+
+T
+java:S1128"2Remove this unused import 'java.net.ServerSocket'.(ĞúÙÿÿÿÿÿ8’ß÷–.
+E
+java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ƒúƒù–.
+J
+java:S1948"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8º¥×÷–.
+E
+java:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ƒúƒù–.
+K
+java:S1948".Make "outputStream" transient or serializable.(ò¡ˆ8º¥×÷–.
+E
+java:S1148i"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ƒúƒù–.
+J
+java:S1604'"(Make this anonymous inner class a lambda(Øí‘Ãúÿÿÿÿ8ƒúƒù–.
+W	java:S110"<This class has 6 parents which is greater than 5 authorized.(ºÌ¥>8º¥×÷–.
+I
+java:S1948"-Make "inputStream" transient or serializable.(©Îƒm8º¥×÷–.

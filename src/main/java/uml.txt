@@ -1,0 +1,56 @@
+Requirements Doc
+- WHAT is the system supposed to do
+
+Design Spec
+- HOW does the system fulfill its requirements
+
+System Structure
+- Describes the systems objects & describes their interrelationships
+
+System Behaviour
+- Describes how the system changes
+
+
+Diagrams:
+1) Use Case -> actors + their uses
+2) Activity -> Actions performed and the order of those actions
+3) Sequence -> Interactions + when they occur
+4) Class -> Structural relationships between "pseudo-classes"
+5) Communication -> what interactions occur
+6) State machine -> Objects state changes
+
+
+Class Diagrams:
+Association
+-> line
+
+Composition
+-> line with solid diamond
+-> has-a relationship
+-> Whole & part
+-> Solid Diamond on whole container side
+-> Whole creates the parts
+-> Rule: Part exist only if whole does
+-> Rule: Can only belong to one whole at a time
+
+Aggregation
+->
+ line with hollow diamond
+-> Aggregation
+-> Same part can be part of many wholes
+-> Part can exist independently without whole
+
+
+
+
+State Diagram
+-> Sequence of states
+-> Whats states can the system be in
+-> What events cause states to change
+
+Activity
+-> Sequence of events/actions
+-> Workflow
+-> The actions an object will perform in what order
+
+
