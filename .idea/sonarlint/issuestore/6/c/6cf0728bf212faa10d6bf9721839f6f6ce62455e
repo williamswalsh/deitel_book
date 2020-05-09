@@ -1,0 +1,13 @@
+
+a
+java:S2583/"DChange this condition so that it does not always evaluate to "false"(”áÈ‰8ÕÂ•œ.
+T
+java:S2589%"7Remove this expression which always evaluates to "true"(›©†©8ÕÂ•œ.
+k
+java:S1192/"NDefine a constant instead of duplicating this literal "william walsh" 3 times.(”áÈ‰8ÕÂ•œ.
+o
+java:S1104A"MMake y a static final constant or non-public and provide accessors if needed.(ÔçÛşÿÿÿÿ8ÕÂ•œ.
+a
+java:S25830"DChange this condition so that it does not always evaluate to "false"(Ïƒö¦8ÕÂ•œ.
+L
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´8şÿú…œ.

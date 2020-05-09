@@ -1,0 +1,58 @@
+JSF         Java Server Faces
+XHTML       Extensible HTML
+
+WebServers make resources available
+Resource: Algorithm, media, styling(CSS & JS)
+
+IP       -> DNS -> Hostname
+Hostname -> DNS -> IP
+
+can have digitary_classic:9000/books/downloads.html
+                 hostname:port virtual-directory-file-path
+
+
+HEADERs
+Content-type: text/html <- MIME <- Multipurpose Internet Media Extension
+- File types for internet content
+- data type
+- text/plain -> Is displayed as is -> no interpretation
+- text/html  -> Is interpreted using the browsers HTML interpreter
+
+GET
+- Asks for a resource
+- Passes data in URL
+- www.google.com/search?name=william-walsh&email=w.w@gmail.com
+- ? separates
+- name=william-walsh
+- email=w.w@gmail.com
+- some browsers limit query length
+- GET response is cached in browser
+- Server can tell client when data will need to be refreshed - timeout
+
+
+POST
+- Sends data to the server
+- Passes data in body -> better for larger data transfers
+- Not secure -> WireShark can access HTML message
+- POST response is not cached in browser
+
+
+Business Rules dictate how data can be accessed
+
+Facelet: Contains JSF & XHTML code
+
+POJO's
+------
+- All member vars are private
+- All member vars have getter & sette
+- Have no-arg constructor
+- No inheritance or implementing interfaces
+- Must be serializable
+
+
+
+- All JB are POJO's not vice versa.
+
+
+
+

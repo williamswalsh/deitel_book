@@ -1,0 +1,39 @@
+
+
+javac -g App.java        Generates debug info required by debugger
+-g:vars                  Generates a local var table in the .class file
+
+jdb                      Start|Restart debugger
+
+stop at App:3            Add breakpoint in class App at line 3
+
+run App                  Execute App class with debugger
+
+cont                     Continue execution after after reaching a breakpoint
+
+print <var>              Print variable value at breakpoint
+
+print <expression>       Print expression value at breakpoint
+print x*x*y              <int>
+print x == 23            true|false
+
+set <var> = 23           Change variables value at a breakpoint
+
+clear                    Lists all breakpoints
+clear App:3              Remove breakpoint
+
+watch App.x              debugger notifies you b4 value is changed, enters breakpoint b4 change NB
+
+unwatch App.x            reverts watch
+
+step                     Executes line by line
+                         Step into method calls
+
+step up                  Step out of method call code to caller
+
+
+next                     Like step but skips method call code
+
+exit                     Terminates execution - doesn't complete code
+
+

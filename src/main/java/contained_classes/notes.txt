@@ -1,0 +1,56 @@
+
+
+Nested Class - Class within another
+
+Nested Class Types:
+- Inner Class
+- Static Nested Class
+
+There is no such thing called
+top level static class
+or
+static inner class.
+
+We only have static nested class.
+
+Rule:
+If a class is useful to only one other class then it seems logical to embed this class as a nested class.
+
+RedBlackNode only used by RedBlackTree -> Candidate for a nested class
+
+
+
+
+
+How do we use static nested class and non-static nested class (inner class)?
+------------------------------------------------------------------------------
+
+Static nested classes are always accessed using the enclosing class's name.
+
+OuterClass.StaticNestedClass nestedObject = new OuterClass.StaticNestedClass();
+
+
+An instance of inner class (non-static class) can exist only with in an instance of Outer class.
+
+OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+
+
+Local Class
+------------------------------------------------------------------------------
+Class defined in a code block -> Method body
+
+In Java8 - class can refer to variables & arguments of containing method body
+
+------
+
+
+
+We must remember that an inner class maintains an implicit reference to the instance of outer class.
+So the outer won't be GC'ed
+
+
+
+----
+Static nested class is static member and can be accessed like any other static member.
+Static nested classes can be imported using static imports in Java.
+Static nested classes should always be preferred as explained.

@@ -1,5 +1,6 @@
-
-package ie.william;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Purpose:
@@ -24,12 +25,16 @@ public class Welcome1 {
 		//		%n		newline character -> portable across systems  ** NB \n isn't **
 
 		// Duplicate line - ALT + CMD + UP/DOWN
-		// Import -> ctrl + shift + o
+		// Import -> ctrl + ALT + o
+		System.out.println(createSpreadsheetTitle());
 
-		// Cannot find symbol => Import error
+	}
 
+	public static String createSpreadsheetTitle() {
 
-
+		LocalDate lastMonth = LocalDate.now().minusMonths(1);
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MMMM");
+		return lastMonth.format(formatter);
 	}
 
 }

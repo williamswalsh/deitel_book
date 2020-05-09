@@ -1,0 +1,24 @@
+
+Web Service API's:
+- JAX-WS -> SOAP + XML
+- JAX-RS -> REST
+
+
+SOAP -> Simple Object Access Protocol
+REST -> Representational State Transfer
+
+@HttpSessionScope
+-> Class can maintain state for user session
+
+
+Setting up session tracking;
+- BindingProvider - controls server request info sent to server
+- RequestContext - stores this setting info
+- BindingProvider.getRequestContext().put(BindingProvider.SESSION_MAINTAIN_PROPERTY)
+
+Webservice
+- Service which can serve an application or other software component over a network
+- enables B2B transactions in a standardised way
+- Allows collaboration between businesses
+
+

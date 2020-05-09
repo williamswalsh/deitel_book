@@ -1,15 +1,15 @@
 
-e
-java:S1192@"ODefine a constant instead of duplicating this literal "Database Error" 3 times.(£ÍÂõ
 C
 java:S1604:"(Make this anonymous inner class a lambda(ä×‹¢øÿÿÿÿ
-l	java:S116"WRename this field "DATABASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„êþÜ
 m	java:S116"XRename this field "DEFAULT_QUERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÝðé
-7
-java:S1170"!Make this final field static too.(„êþÜ
+l	java:S116"WRename this field "DATABASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„êþÜ
 <
 java:S1170"!Make this final field static too.(ºÔ¦Ùûÿÿÿÿ
+e
+java:S1192@"ODefine a constant instead of duplicating this literal "Database Error" 3 times.(£ÍÂõ
 <
 java:S1170"!Make this final field static too.(íÛˆ°üÿÿÿÿ
 7
 java:S1170"!Make this final field static too.(áÝðé
+7
+java:S1170"!Make this final field static too.(„êþÜ
